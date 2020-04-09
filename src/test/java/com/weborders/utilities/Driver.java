@@ -23,7 +23,7 @@ public class Driver {
      *
      * @return
      */
-    public synchronized static WebDriver getDriver() {
+    public synchronized static WebDriver getDriver() { // synchronized control thread safety. like control trafic lambs
         //if webDriver object doesn't exist
         //create it
         if (driverPool.get() == null) {
