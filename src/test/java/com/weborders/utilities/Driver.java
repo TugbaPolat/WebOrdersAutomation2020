@@ -24,7 +24,7 @@ public class Driver {
      * @return
      */
     public synchronized static WebDriver getDriver() {
-        //if webdriver object doesn't exist
+        //if webDriver object doesn't exist
         //create it
         if (driverPool.get() == null) {
             //specify browser type in configuration.properties file
